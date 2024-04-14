@@ -3,7 +3,8 @@
 
 This function generates Pascal's triangle for a given integer.
 
-It is an arithmetic triangle in which each number is the sum of the numbers directly above it.
+It is an arithmetic triangle in which each number
+is the sum of the numbers directly above it.
 
 Args:
     n: Number of rows in the triangle.
@@ -14,7 +15,8 @@ Return:
 
 
 def pascal_triangle(n):
-""" Generating Pascal's triangle for a given  integer.
+
+    """ Generating Pascal's triangle for a given  integer.
 
     Args:
         n: Number of rows in the triangle.
