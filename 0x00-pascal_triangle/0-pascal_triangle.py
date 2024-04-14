@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-    pascal's triangle
+pascal's triangle
+return  list of integers lists of  that represents
+Pascal’s triangle of n
 """
 
 
