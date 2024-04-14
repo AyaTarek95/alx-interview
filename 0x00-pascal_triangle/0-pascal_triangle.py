@@ -1,16 +1,27 @@
 #!/usr/bin/python3
-"""
-pascal's triangle
-return  list of integers lists of  that represents
-Pascal’s triangle of n
+""" Pascal's triangle
+
+This function generates Pascal's triangle for a given integer.
+
+It is an arithmetic triangle in which each number is the sum of the numbers directly above it.
+
+Args:
+    n: Number of rows in the triangle.
+
+Return:
+    List of lists representing Pascal's triangle.
 """
 
 
 def pascal_triangle(n):
-"""
-return  list of integers lists of  that represents
-Pascal’s triangle of n
-"""
+""" Generating Pascal's triangle for a given  integer.
+
+    Args:
+        n: Number of rows in the triangle.
+
+    Return:
+        List of lists representing Pascal's triangle.
+    """
     if n <= 0:
         return []
 
