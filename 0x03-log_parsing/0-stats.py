@@ -12,9 +12,9 @@ def get_input(lines):
     }
 
 
-def print_stats(total_file_size, status_codes_stats):
+def print_stats(file_size_sum, status_codes_stats):
     """Print acumulated statistics of the HTTP request log."""
-    print('File size: {:d}'.format(total_file_size), flush=True)
+    print('File size: {:d}'.format(file_size_sum), flush=True)
     for status_code in sorted(status_codes_stats.keys()):
         n = status_codes_stats.get(status_code, 0)
         if n > 0:
