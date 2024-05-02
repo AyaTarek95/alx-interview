@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""reads stdin line by line and computes metrics"""
+"""reads stdin,compute metrics"""
 import re
 
 
@@ -13,7 +13,7 @@ def get_input(lines):
 
 
 def print_stats(file_size_sum, status_codes_stats):
-    """Print acumulated statistics of the HTTP request log."""
+    """Print acumulated statistics of HTTP log"""
     print('File size: {:d}'.format(file_size_sum), flush=True)
     for status_code in sorted(status_codes_stats.keys()):
         n = status_codes_stats.get(status_code, 0)
@@ -22,7 +22,7 @@ def print_stats(file_size_sum, status_codes_stats):
 
 
 def run():
-    """run input parser."""
+    """run input parser"""
     line_n = 0
     file_size_sum = 0
     status_codes_stats = {
