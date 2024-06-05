@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-"""_Making Change_
+"""Making Change method
 """
 
 
 def makeChange(coins, total):
-    """_makeChange method_
+    """makeChange method definition
 
     Args:
-        coins (_int_): _int_
-        total (_int_): _int_
+        coins _int_:int
+        total _int_:int
 
     Returns:
-        _iny_: _int_
+        int:int
     """
     if total <= 0 or len(coins) == 0:
         return 0
