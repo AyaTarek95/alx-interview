@@ -7,8 +7,8 @@ def makeChange(coins, total):
     """makeChange method definition
 
     Args:
-        coins _int_:int
-        total _int_:int
+        coins:int
+        total:int
 
     Returns:
         int:int
